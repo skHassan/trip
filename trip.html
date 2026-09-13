@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6f7f4" />
+  <title>Trip Details</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <main class="shell shell-trip">
+    <a class="back-link" href="index.html">← All trips</a>
+    <section id="tripHero" class="trip-hero"></section>
+
+    <nav class="tabs" aria-label="Trip sections">
+      <button class="tab-btn is-active" data-tab="journey">Journey</button>
+      <button class="tab-btn" data-tab="trains">Trains</button>
+      <button class="tab-btn" data-tab="hotels">Hotels</button>
+    </nav>
+
+    <section id="journey" class="tab-panel is-active"></section>
+    <section id="trains" class="tab-panel"></section>
+    <section id="hotels" class="tab-panel"></section>
+  </main>
+  <script src="assets/js/trip.js" defer></script>
+</body>
+</html>
