@@ -31,3 +31,12 @@ Verify both times against the tickets before publishing.
 ## Server requirements
 
 No Node.js, npm or build process is needed. Any normal static web server is enough.
+
+## Transfer distance and approximate time
+The Journey tab supports optional `distance` and `duration` fields for transfer events. This trip currently includes:
+
+- Asansol Station → Baranti: 36 km, approx. 1 hr 15 min
+- Adityapur Station → Ghatsila: 55 km, approx. 1 hr 30 min
+- Jhargram Station → Hotel: 5–10 km, approx. 15–25 min
+
+The times are planning estimates only. Update them in `data/trips.json` if you later have more accurate values.

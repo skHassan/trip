@@ -27,7 +27,8 @@ function journeyHTML(trip){
             <div class="event-dot">${icons[event.type] || '•'}</div>
             ${event.time ? `<div class="event-time">${event.time}</div>` : ''}
             <h3>${event.title}</h3>
-            ${event.subtitle ? `<p>${event.subtitle}${event.distance ? ` • ${event.distance}`:''}</p>` : event.distance ? `<p>${event.distance}</p>` : ''}
+            ${event.subtitle ? `<p>${event.subtitle}</p>` : ''}
+            ${(event.distance || event.duration) ? `<div class="transfer-meta">${event.distance ? `<span>📍 ${event.distance}</span>` : ''}${event.duration ? `<span>⏱ Approx. ${event.duration.replace(/^~/,'')}</span>` : ''}</div>` : ''}
           </div>
         `).join('')}
       </div>
