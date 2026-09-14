@@ -1,16 +1,16 @@
 {
   "trips": [
     {
-      "id": "purulia-ghatsila-jhargram-2027",
-      "title": "Purulia • Ghatsila • Jhargram",
-      "subtitle": "Baranti, Ghatsila & Jhargram road-and-rail trip",
-      "startDate": "2027-10-18",
+      "id": "purulia-ghatsila-2027",
+      "title": "Purulia • Ghatsila",
+      "subtitle": "Baranti, Purulia & Ghatsila road-and-rail trip",
+      "startDate": "2027-10-19",
       "endDate": "2027-10-24",
       "status": "upcoming",
       "days": [
         {
           "day": 1,
-          "date": "2027-10-18",
+          "date": "2027-10-19",
           "title": "Sheoraphuli → Asansol → Baranti",
           "events": [
             {
@@ -23,9 +23,14 @@
             {
               "type": "car",
               "title": "Pickup from Asansol",
-              "subtitle": "Drive to Baranti",
+              "subtitle": "Drive to Baranti with sightseeing",
               "distance": "36 km",
-              "duration": "~1 hr 15 min"
+              "duration": "~1 hr 15 min direct drive"
+            },
+            {
+              "type": "sightseeing",
+              "title": "Sightseeing during transfer",
+              "subtitle": "Asansol to Baranti"
             },
             {
               "type": "hotel",
@@ -39,20 +44,21 @@
             },
             {
               "type": "sightseeing",
-              "title": "Local sightseeing",
+              "title": "Afternoon sightseeing",
               "subtitle": "Baranti / Purulia area"
             },
             {
               "type": "stay",
               "title": "Night stay",
-              "subtitle": "Baranti"
+              "subtitle": "HOTEL NAME 1, Baranti",
+              "hotelId": "hotel-1"
             }
           ]
         },
         {
           "day": 2,
-          "date": "2027-10-19",
-          "title": "Purulia Sightseeing",
+          "date": "2027-10-20",
+          "title": "Ajodhya Sightseeing",
           "events": [
             {
               "type": "food",
@@ -60,8 +66,8 @@
             },
             {
               "type": "sightseeing",
-              "title": "Full-day Purulia sightseeing",
-              "subtitle": "All Purulia"
+              "title": "Full-day sightseeing",
+              "subtitle": "All Ajodhya side"
             },
             {
               "type": "stay",
@@ -73,8 +79,8 @@
         },
         {
           "day": 3,
-          "date": "2027-10-20",
-          "title": "Baranti → Asansol → Adityapur → Ghatsila",
+          "date": "2027-10-21",
+          "title": "Baranti → Purulia",
           "events": [
             {
               "type": "food",
@@ -89,21 +95,12 @@
             {
               "type": "car",
               "title": "Hotel pickup",
-              "subtitle": "Drive to Asansol station"
+              "subtitle": "Transfer to Purulia-area hotel with sightseeing"
             },
             {
-              "type": "train",
-              "time": "09:00",
-              "title": "Asansol TATA Express",
-              "subtitle": "Asansol to Adityapur",
-              "trainId": "train-2"
-            },
-            {
-              "type": "car",
-              "title": "Station pickup",
-              "subtitle": "Adityapur to Ghatsila",
-              "distance": "55 km",
-              "duration": "~1 hr 30 min"
+              "type": "sightseeing",
+              "title": "Sightseeing during transfer",
+              "subtitle": "Baranti to Purulia"
             },
             {
               "type": "hotel",
@@ -113,23 +110,88 @@
             },
             {
               "type": "food",
-              "title": "Lunch"
+              "title": "Lunch at hotel"
+            },
+            {
+              "type": "rest",
+              "title": "Rest",
+              "subtitle": "Relax at hotel for a while"
             },
             {
               "type": "sightseeing",
-              "title": "Local sightseeing",
-              "subtitle": "Ghatsila"
+              "title": "Afternoon sightseeing",
+              "subtitle": "Purulia area"
+            },
+            {
+              "type": "food",
+              "title": "Dinner"
             },
             {
               "type": "stay",
               "title": "Night stay",
-              "subtitle": "Ghatsila"
+              "subtitle": "HOTEL NAME 2, Purulia",
+              "hotelId": "hotel-2"
             }
           ]
         },
         {
           "day": 4,
-          "date": "2027-10-21",
+          "date": "2027-10-22",
+          "title": "Purulia → Barabhum → Ghatsila",
+          "events": [
+            {
+              "type": "food",
+              "title": "Breakfast"
+            },
+            {
+              "type": "hotel",
+              "title": "Check out",
+              "subtitle": "HOTEL NAME 2",
+              "hotelId": "hotel-2"
+            },
+            {
+              "type": "car",
+              "title": "Hotel pickup",
+              "subtitle": "Drive to Barabhum station — reach before 09:00 AM"
+            },
+            {
+              "type": "train",
+              "time": "09:35",
+              "title": "Ranchi Howrah Express",
+              "subtitle": "Barabhum to Ghatsila",
+              "trainId": "train-2"
+            },
+            {
+              "type": "car",
+              "title": "Station pickup",
+              "subtitle": "Ghatsila station to HOTEL NAME 3"
+            },
+            {
+              "type": "hotel",
+              "title": "Check in",
+              "subtitle": "HOTEL NAME 3",
+              "hotelId": "hotel-3"
+            },
+            {
+              "type": "food",
+              "title": "Lunch"
+            },
+            {
+              "type": "sightseeing",
+              "title": "Afternoon sightseeing",
+              "subtitle": "Ghatsila"
+            },
+            {
+              "type": "stay",
+              "title": "Night stay",
+              "subtitle": "HOTEL NAME 3, Ghatsila",
+              "hotelId": "hotel-3"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "date": "2027-10-23",
           "title": "Ghatsila Sightseeing",
           "events": [
             {
@@ -144,21 +206,21 @@
             {
               "type": "stay",
               "title": "Night stay",
-              "subtitle": "HOTEL NAME 2, Ghatsila",
-              "hotelId": "hotel-2"
+              "subtitle": "HOTEL NAME 3, Ghatsila",
+              "hotelId": "hotel-3"
             }
           ]
         },
         {
-          "day": 5,
-          "date": "2027-10-22",
-          "title": "Ghatsila → Jhargram",
+          "day": 6,
+          "date": "2027-10-24",
+          "title": "Ghatsila → Howrah → Home",
           "events": [
             {
               "type": "hotel",
               "title": "Check out",
-              "subtitle": "HOTEL NAME 2",
-              "hotelId": "hotel-2"
+              "subtitle": "HOTEL NAME 3",
+              "hotelId": "hotel-3"
             },
             {
               "type": "car",
@@ -166,83 +228,15 @@
               "subtitle": "Drive to Ghatsila station"
             },
             {
-              "type": "train",
-              "time": "06:49",
-              "title": "Steel Express",
-              "subtitle": "Ghatsila to Jhargram",
-              "trainId": "train-3"
-            },
-            {
-              "type": "car",
-              "title": "Station pickup",
-              "subtitle": "Drive to Jhargram hotel",
-              "distance": "5–10 km",
-              "duration": "~15–25 min"
-            },
-            {
-              "type": "hotel",
-              "title": "Check in",
-              "subtitle": "HOTEL NAME 3",
-              "hotelId": "hotel-3"
-            },
-            {
-              "type": "food",
-              "title": "Breakfast"
-            },
-            {
-              "type": "sightseeing",
-              "title": "Full-day sightseeing",
-              "subtitle": "Jhargram"
-            },
-            {
-              "type": "stay",
-              "title": "Night stay",
-              "subtitle": "Jhargram"
-            }
-          ]
-        },
-        {
-          "day": 6,
-          "date": "2027-10-23",
-          "title": "Jhargram Sightseeing",
-          "events": [
-            {
-              "type": "food",
-              "title": "Breakfast"
-            },
-            {
-              "type": "sightseeing",
-              "title": "Full-day Jhargram sightseeing",
-              "subtitle": "All Jhargram"
-            },
-            {
-              "type": "stay",
-              "title": "Night stay",
-              "subtitle": "HOTEL NAME 3, Jhargram",
-              "hotelId": "hotel-3"
-            }
-          ]
-        },
-        {
-          "day": 7,
-          "date": "2027-10-24",
-          "title": "Jhargram → Howrah → Home",
-          "events": [
-            {
-              "type": "car",
-              "title": "Hotel pickup",
-              "subtitle": "Drive to Jhargram station"
-            },
-            {
               "type": "food",
               "title": "Buy breakfast"
             },
             {
               "type": "train",
-              "time": "07:34",
+              "time": "06:49",
               "title": "Steel Express",
-              "subtitle": "Jhargram to Howrah",
-              "trainId": "train-4"
+              "subtitle": "Ghatsila to Howrah",
+              "trainId": "train-3"
             },
             {
               "type": "home",
@@ -259,8 +253,8 @@
           "number": "22387",
           "from": "Sheoraphuli",
           "to": "Asansol",
-          "departure": "2027-10-18T06:39:00",
-          "arrival": "2027-10-18T09:31:00",
+          "departure": "2027-10-19T06:39:00",
+          "arrival": "2027-10-19T09:31:00",
           "tickets": [
             {
               "name": "Family 1",
@@ -274,12 +268,12 @@
         },
         {
           "id": "train-2",
-          "name": "Asansol TATA Express",
-          "number": "13512",
-          "from": "Asansol",
-          "to": "Adityapur",
-          "departure": "2027-10-20T09:00:00",
-          "arrival": "2027-10-20T12:50:00",
+          "name": "Ranchi Howrah Express",
+          "number": "22892",
+          "from": "Barabhum",
+          "to": "Ghatsila",
+          "departure": "2027-10-22T09:35:00",
+          "arrival": "2027-10-22T11:36:00",
           "tickets": []
         },
         {
@@ -287,18 +281,8 @@
           "name": "Steel Express",
           "number": "12814",
           "from": "Ghatsila",
-          "to": "Jhargram",
-          "departure": "2027-10-22T06:49:00",
-          "arrival": "2027-10-22T07:32:00",
-          "tickets": []
-        },
-        {
-          "id": "train-4",
-          "name": "Steel Express",
-          "number": "12814",
-          "from": "Jhargram",
           "to": "Howrah",
-          "departure": "2027-10-24T07:34:00",
+          "departure": "2027-10-24T06:49:00",
           "arrival": "2027-10-24T10:35:00",
           "tickets": []
         }
@@ -308,16 +292,16 @@
           "id": "hotel-1",
           "name": "HOTEL NAME 1",
           "place": "Baranti",
-          "checkIn": "2027-10-18",
-          "checkOut": "2027-10-20",
+          "checkIn": "2027-10-19",
+          "checkOut": "2027-10-21",
           "rooms": "3/4 rooms",
           "voucherUrl": "#"
         },
         {
           "id": "hotel-2",
           "name": "HOTEL NAME 2",
-          "place": "Ghatsila",
-          "checkIn": "2027-10-20",
+          "place": "Purulia",
+          "checkIn": "2027-10-21",
           "checkOut": "2027-10-22",
           "rooms": "3/4 rooms",
           "voucherUrl": "#"
@@ -325,7 +309,7 @@
         {
           "id": "hotel-3",
           "name": "HOTEL NAME 3",
-          "place": "Jhargram",
+          "place": "Ghatsila",
           "checkIn": "2027-10-22",
           "checkOut": "2027-10-24",
           "rooms": "3/4 rooms",
