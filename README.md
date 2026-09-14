@@ -1,4 +1,4 @@
-# Purulia • Ghatsila • Jhargram Trip Site
+# Purulia • Ghatsila Trip Site
 
 Upload this entire folder to:
 
@@ -6,7 +6,7 @@ Upload this entire folder to:
 
 ## Edit trip information
 
-All content is inside:
+All trip content is inside:
 
 `data/trips.json`
 
@@ -14,29 +14,74 @@ Replace placeholder hotel names, ticket URLs and hotel voucher URLs directly in 
 
 ## Important placeholders
 
-- `HOTEL NAME 1` — Baranti
-- `HOTEL NAME 2` — Ghatsila
-- `HOTEL NAME 3` — Jhargram
-- Ticket URLs currently set to `#`
-- Hotel voucher URLs currently set to `#`
+* `HOTEL NAME 1` — Baranti
+* `HOTEL NAME 2` — Purulia
+* `HOTEL NAME 3` — Ghatsila
+* Ticket URLs are currently set to `#`
+* Hotel voucher URLs are currently set to `#`
 
-## Notes on supplied times
+## Trip dates
 
-The first train arrival was normalized to **09:31 AM** because a 06:39 AM departure followed by a 09:31 PM arrival for Sheoraphuli → Asansol appears inconsistent with the itinerary.
+**19 October 2027 – 24 October 2027**
 
-The Asansol → Adityapur arrival was normalized to **12:50 PM** because the supplied `12.50 am` appears inconsistent with a 09:00 AM departure and same-day onward travel to Ghatsila.
+The trip covers:
 
-Verify both times against the tickets before publishing.
+**Sheoraphuli → Asansol → Baranti → Purulia → Barabhum → Ghatsila → Howrah → Home**
 
-## Server requirements
+## Train information
 
-No Node.js, npm or build process is needed. Any normal static web server is enough.
+### Black Diamond Express
+
+* Train No: 22387
+* Sheoraphuli → Asansol
+* Date: 19 October 2027
+* Departure: 06:39 AM
+* Arrival: 09:31 AM
+
+### Ranchi Howrah Express
+
+* Train No: 22892
+* Barabhum → Ghatsila
+* Date: 22 October 2027
+* Departure: 09:35 AM
+* Arrival: 11:36 AM
+
+### Steel Express
+
+* Train No: 12814
+* Ghatsila → Howrah
+* Date: 24 October 2027
+* Departure: 06:49 AM
+* Arrival: 10:35 AM
+
+## Hotels
+
+### HOTEL NAME 1
+
+* Location: Baranti
+* Check-in: 19 October 2027
+* Check-out: 21 October 2027
+* Rooms: 3/4 rooms
+
+### HOTEL NAME 2
+
+* Location: Purulia
+* Check-in: 21 October 2027
+* Check-out: 22 October 2027
+* Rooms: 3/4 rooms
+
+### HOTEL NAME 3
+
+* Location: Ghatsila
+* Check-in: 22 October 2027
+* Check-out: 24 October 2027
+* Rooms: 3/4 rooms
 
 ## Transfer distance and approximate time
-The Journey tab supports optional `distance` and `duration` fields for transfer events. This trip currently includes:
 
-- Asansol Station → Baranti: 36 km, approx. 1 hr 15 min
-- Adityapur Station → Ghatsila: 55 km, approx. 1 hr 30 min
-- Jhargram Station → Hotel: 5–10 km, approx. 15–25 min
+The Journey tab supports optional `distance` and `duration` fields for transfer events.
 
-The times are planning estimates only. Update them in `data/trips.json` if you later have more accurate values.
+Known transfer information currently includes:
+
+* Asansol Station → Baranti: 36 km, approx. 1 hr 15 min direct driving time
+* The Asansol → Baranti journey includes sightseeing, so the actual transfer will take longer than the direct
