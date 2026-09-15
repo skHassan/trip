@@ -258,11 +258,11 @@
           "tickets": [
             {
               "name": "Family 1",
-              "url": "/data/SHE_ASN_1.pdf"
+              "url": "/trip/data/SHE_ASN_1.pdf"
             },
             {
               "name": "Family 2",
-              "url": "#"
+              "url": "/trip/data/SHE_ASN_2.pdf"
             }
           ]
         },
@@ -274,7 +274,16 @@
           "to": "Ghatsila",
           "departure": "2027-10-22T09:35:00",
           "arrival": "2027-10-22T11:36:00",
-          "tickets": []
+          "tickets": [
+            {
+              "name": "Family 1",
+              "url": "/trip/data/BBM_GTS_1.pdf"
+            },
+            {
+              "name": "Family 2",
+              "url": "/trip/data/BBM_GTS_2.pdf"
+            }
+          ]
         },
         {
           "id": "train-3",
@@ -284,7 +293,16 @@
           "to": "Howrah",
           "departure": "2027-10-24T06:49:00",
           "arrival": "2027-10-24T10:35:00",
-          "tickets": []
+          "tickets": [
+            {
+              "name": "Family 1",
+              "url": "/trip/data/GTS_HWH_1.pdf"
+            },
+            {
+              "name": "Family 2",
+              "url": "/trip/data/GTS_HWH_2.pdf"
+            }
+          ]
         }
       ],
       "hotels": [
